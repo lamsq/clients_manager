@@ -2,6 +2,7 @@
 <ol>
 <li>git clone https://github.com/lamsq/clients_manager.git</li>
 <li>cp example.env .env</li>
+<li>Прописать учетные данные и базу данных в .env</li>
 <li>mvn clean install</li>
 <li>mvn clean package</li>
 <li>docker-compose up --build</li>
